@@ -1,0 +1,84 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('https://cdn.openart.ai/uploads/image_Mtj47RYB_1742931454072_512.webp');
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    color: #ededed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #753a73;
+    text-align: center;
+    padding: 15px 0;
+    offset: 3px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+nav h1 {
+    margin: 0;
+    color: #ededed;
+    font-size: 1.8rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: unset;
+    font-synthesis: weight;
+    font-display: swap;
+    offset-rotate: 15deg;
+    offset-anchor: 50%;
+}
+
+.login-popup {
+    background-color: rgba(117, 58, 115, 0.5); /* Semi-transparent */
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-popup h2 {
+    margin-bottom: 20px;
+    color: #1c0d1b;
+    font-display: swap;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: unset;
+}
+#password {
+    margin-bottom: 2px;
+    margin-top: 2px;
+    height: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    text-align: left;
+}
+button {
+    background-color: #150a14;
+    color: #ededed;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    offset: 2px;
+
+}
