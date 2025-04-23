@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anand Vihar Apartment - Calendar</title>
+    <link rel="stylesheet" href="min.css">
+    <script src="min.js" defer></script>
+</head>
+<body>
+    <nav>
+        <h1>Anand Vihar Apartment</h1>
+    </nav>
+    <ul>
+        <li><a href="../homepg/home.html" class="nav-item">Home</a></li>
+        <li><a href="../cctftgt/cctv.html" class="nav-item">CCTV</a></li>
+        <li><a href="../billpg/bill.html" class="nav-item">Bill Payments</a></li>
+        <li><a href="../maintainence/mint.html" class="nav-item">Maintainence</a></li>
+        <li><a href="../queryChannel/que.html" class="nav-item">Discussion Forum</a></li>
+        <li><a href="../loginpg/log.html" class="nav-item">Login</a></li>
+    </ul>
+    <main>
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Admin Panel</title>
+        </head>
+        <body>
+            <h2>Admin Panel: Edit Maintenance Dues</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Resident Name</th>
+                        <th>Flat Number</th>
+                        <th>Due Amount</th>
+                        <th>Last Paid</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="duesTable">
+                    <!-- Rows will be dynamically populated here -->
+                </tbody>
+            </table>
+        
+            <!-- Section to Add or Edit Rows -->
+            <form id="updateForm">
+                <label>Resident Name:</label>
+                <input type="text" id="residentName" required>
+                <label>Flat Number:</label>
+                <input type="number" id="flatNumber" required>
+                <label>Due Amount:</label>
+                <input type="number" id="dueAmount" step="0.01" required>
+                <label>Last Paid:</label>
+                <input type="date" id="lastPaid" required>
+                <button type="submit">Update</button>
+            </form>
+        </body>
+        <script src="admin.js"></script>
+        </html>
+    </main>
+</body>
+</html>
